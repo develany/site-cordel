@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+body {
+    margin: 0px;
+}
+header {
+    background-color: black;
+    color: white;
+}
+h1 {
+    font: normal bold 5.4em 'Passion One', cursive;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0px;
+    padding-top: 50px;
+    min-width: 150px;
+}
+header > p {
+    font: normal normal 1.3em verdana, cursive;
+    text-align: center;
+    padding-bottom: 50px;
+    margin: 0px;
+}
+a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+a:active {
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+main > p {
+    font: normal normal 2em 'Sriracha', cursive;
+    padding: 30px 60px;
+
+}
+div {
+    padding: 30px 60px;
+}
+div > p {
+    font: normal normal 2em 'Sriracha', cursive;
+    background-color: rgba(5, 5, 5, 0.205);
+    width: 400px;
+    color: white;
+    padding: 5px;
+}
+#flor {
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#livros {
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+footer {
+    font: normal normal 1.3em verdana, cursive;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+footer > p {
+    margin: 0px;
+}
